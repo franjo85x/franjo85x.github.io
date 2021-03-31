@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #3A4750;
 }
 
 .base {
@@ -20,13 +21,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 95%;
     width: 95%;
-    border-radius: 2%;
+    border-radius: 10px;
     background: #EEEEEE;
 }
 
 .title {
-    color: #3A4750;
+    font-size: 6vmin;
 }
 
+.description {
+    font-size: 4vmin;
+}
+
+.contact {
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.contact i {
+    padding: 0 4%;
+    width: 6vmin;
+}
