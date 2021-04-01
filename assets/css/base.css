@@ -46,3 +46,13 @@ body {
     padding: 0 4%;
     width: 6vmin;
 }
+
+i:hover {
+    color: darkcyan;
+    transition: color 0.5s;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #3A4750;
+}
